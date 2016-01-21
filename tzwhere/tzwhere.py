@@ -36,8 +36,6 @@ try:
 except ImportError:
     WRAP = tuple
 
-LOGGER_FORMAT = '%(asctime)-15s %(filename)s %(funcName)s %(lineno)d %(levelname)s  %(message)s'
-logging.basicConfig(format=LOGGER_FORMAT, level=logging.DEBUG)
 LOGGER = logging.getLogger('pytzwhere')
 
 
